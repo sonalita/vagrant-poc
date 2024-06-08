@@ -6,13 +6,13 @@ This repo demonstrates bootstrapping a Virtualbox machine and running an example
 - You must have the following software installed:
   - [VirtualBox](https://www.virtualbox.org/)
   - [Vagrant](https://www.vagrantup.com/)
-- You must have environment variable PAT_TOKEN set to a valid github token that can clone public repos 
+- You must have environment variable PAT_TOKEN set to a valid github token that has at least ```repo:public_repo``` scope.
 
 ## Usage
 
 Once the repo is cloned and the required software is installed, simply cd into the repo's root folder and run ```vagrant up```
 
-This POC uses aan image based on Rocky Linux 8. The repo will launch a VirtualBox VM based on rocky linux 8 and then run the small provisioning script ```./scripts/bootstrap.sh```
+This POC uses an image based on Rocky Linux 8. The repo will launch a VirtualBox VM based on rocky linux 8 and then run the small provisioning script ```./scripts/bootstrap.sh```
 
 This provisioning script will install ansible, clone this repo into the VM and run the playbook.yaml playbook.
 
