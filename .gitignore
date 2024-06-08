@@ -1,0 +1,33 @@
+# Ignore Vagrant directory
+.vagrant/
+
+# Ignore private key files
+*.key
+
+# Ignore temporary files
+*~
+
+# Ignore log files
+*.log
+
+# Ignore all .env files
+*.env
+
+# Ignore retry files created by Ansible
+*.retry
+
+# Ignore Ansible temporary files
+.ansible/
+
+# Ignore Ansible vault files
+*.vault
+
+# Ignore Ansible local facts
+facts.d/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Python virtual environment
+venv/
