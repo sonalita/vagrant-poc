@@ -3,7 +3,7 @@
   become: true
 
   tasks:
-  - name: Ensure Chroney
+  - name: Ensure Chrony
     dnf:
       name: chrony
       state: present
