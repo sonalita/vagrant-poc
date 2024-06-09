@@ -31,3 +31,4 @@ __pycache__/
 
 # Ignore Python virtual environment
 venv/
+.vscode/settings.json
